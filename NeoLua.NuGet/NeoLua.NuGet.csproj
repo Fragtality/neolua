@@ -4,7 +4,7 @@
   <PropertyGroup>
     <RootNamespace>NeoLua.NuGet</RootNamespace>
     <AssemblyName>NeoLua.NuGet</AssemblyName>
-    <TargetFramework>net451</TargetFramework>
+    <TargetFramework>net481</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MSBuildTasks" Version="1.5.0.235">

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-    <TargetFramework>net48</TargetFramework>
+    <TargetFramework>net481</TargetFramework>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>NeoLua.snk</AssemblyOriginatorKeyFile>
     <AssemblyName>LuaDLR.Test</AssemblyName>
@@ -67,8 +67,8 @@
 	  <EmbeddedResource Include="Lua\Runtime12.lua" />
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="MSTest.TestAdapter" Version="3.10.4" />
-	  <PackageReference Include="MSTest.TestFramework" Version="3.10.4" />
+	  <PackageReference Include="MSTest.TestAdapter" Version="4.0.2" />
+	  <PackageReference Include="MSTest.TestFramework" Version="4.0.2" />
 	</ItemGroup>
 	<ItemGroup>
 	  <None Include="..\NeoLua\NeoLua.licenseheader" Link="NeoLua.licenseheader" />

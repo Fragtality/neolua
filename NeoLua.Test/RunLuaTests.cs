@@ -21,7 +21,7 @@ namespace LuaDLR.Test
 				if (frame == null)
 					Assert.IsTrue(false, "Test failed (unknown position) " + sMessage);
 				else
-					Assert.IsTrue(false, "Test failed at line {0}, column {1}, file {2} {3}", frame.LineNumber, frame.ColumnNumber, frame.FileName, sMessage);
+					Assert.IsTrue(false, String.Format("Test failed at line {0}, column {1}, file {2} {3}", frame.LineNumber, frame.ColumnNumber, frame.FileName, sMessage));
 			}
 			return test;
 		}
